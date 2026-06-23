@@ -196,7 +196,7 @@ The skill catches surface-level patterns. The full **NSF SBIR Pitch Playbook** â
 Drop your email at **[elleyuanwang.com/sbir-pitch](https://elleyuanwang.com/sbir-pitch)** to get:
 
 - Launch-week pricing when the Playbook ships
-- Occasional notes on what the author is seeing across recent reviewer panels
+- Occasional notes on future releases in the playbook series
 
 No spam. One-click unsubscribe.
 
