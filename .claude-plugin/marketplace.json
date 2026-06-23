@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "grantproof",
+  "description": "A free Claude Skill that rewrites founder prose into the register federal R&D grant reviewers reward — NSF SBIR/STTR, DoD, NIH, DOE, DARPA, NASA.",
+  "owner": {
+    "name": "Dr. Elle Yuan Wang",
+    "url": "https://elleyuanwang.com"
+  },
+  "plugins": [
+    {
+      "name": "grantproof",
+      "description": "Flags seven common writing-style mistakes federal R&D grant reviewers downgrade — absolute terms, marketing superlatives, product-development framing, no-prior-work claims, vague impact language, over-claimed measurement, and uncited factual claims.",
+      "source": "./plugins/grantproof",
+      "category": "writing",
+      "tags": ["sbir", "grants", "nsf", "dod", "nih", "darpa", "writing", "research"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0",
+  "M1": {
+    "name": "Absolute terms",
+    "match": "literal-words",
+    "triggers": [
+      "always",
+      "every",
+      "all",
+      "completely",
+      "guarantee",
+      "the best",
+      "the most",
+      "revolutionary"
+    ]
+  },
+  "M2": {
+    "name": "Marketing superlatives",
+    "match": "literal-words",
+    "triggers": [
+      "unparalleled",
+      "breakthrough",
+      "game-changing"
+    ]
+  },
+  "M3": {
+    "name": "Product-development framing",
+    "match": "literal-phrases",
+    "triggers": [
+      "spin out of",
+      "version 2 of",
+      "fork of",
+      "build out the"
+    ]
+  },
+  "M4": {
+    "name": "Nobody has done this before",
+    "match": "literal-phrases-with-variants",
+    "triggers": [
+      "nobody has done this before",
+      "no one has done this",
+      "first ever",
+      "no prior work"
+    ],
+    "notes": "Match close variants of the no-anchor / no-prior-work claim class."
+  },
+  "M5": {
+    "name": "Vague impact language",
+    "match": "semantic-pattern",
+    "triggers": [
+      "will help"
+    ],
+    "notes": "Detect the broader 'if we do this, something good will happen' framing — see patterns/M5-vague-impact.md."
+  },
+  "M6": {
+    "name": "Over-claiming measurement",
+    "match": "semantic-pattern",
+    "triggers": [
+      "measures"
+    ],
+    "notes": "Detect direct-measurement claims for inferred or unobservable constructs — see patterns/M6-over-claiming-measurement.md."
+  },
+  "M7": {
+    "name": "Uncited factual claims",
+    "match": "semantic-pattern",
+    "triggers": [],
+    "notes": "Detect specific factual claims (dollar figures, percentages, durations, trend statements, comparative market claims) presented without a citation — see patterns/M7-uncited-claims.md."
+  }
+}

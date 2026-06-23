@@ -1,0 +1,14 @@
+{
+  "name": "grantproof",
+  "version": "0.1.0",
+  "description": "Rewrite federal R&D grant prose into the register reviewers reward. Flags seven common writing-style mistakes with quoted phrase, one-sentence rationale, and abstract rewrite template.",
+  "skills": "./skills/",
+  "author": {
+    "name": "Dr. Elle Yuan Wang",
+    "url": "https://elleyuanwang.com"
+  },
+  "homepage": "https://github.com/ellewangyuan/grantproof",
+  "repository": "https://github.com/ellewangyuan/grantproof",
+  "license": "MIT",
+  "keywords": ["sbir", "grants", "nsf", "dod", "nih", "darpa", "writing", "research"]
+}
