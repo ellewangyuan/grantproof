@@ -196,8 +196,7 @@ Created by **Dr. Elle Yuan Wang**:
 
 - **PhD, Cognitive Sciences & Learning Analytics** — Columbia University
 - **Served as an NSF SBIR/STTR reviewer** (America's Seed Fund)
-- **Lead Scientist & Advisor**, AI-ALOE (National AI Institute for Adult Learning and Online Education)
-- **Advisor**, ASU Online
+- **Served as Lead Scientist & Advisor**, AI-ALOE (National AI Institute for Adult Learning and Online Education)
 - **Judge / advisory board**: $5M XPRIZE IBM Watson AI for Good · $1M XPRIZE-IES Digital Learning Challenge · $4M Learning Engineering Tools Competition
 - **Coached and supported $21M in collective R&D grant funding** over 10 years across federal R&D grant programs
 - Strategic roles: Columbia Tech Ventures · MTV Networks · NYC Mayor Bloomberg's Office
@@ -208,14 +207,7 @@ Created by **Dr. Elle Yuan Wang**:
 
 ## Get the full playbook
 
-The skill catches surface-level patterns. The full **NSF SBIR Pitch Playbook** — the first launch in the playbook series — covers what the skill cannot:
-
-- 12 register patterns reviewers consistently downgrade (with deeper explanation)
-- The reviewer's mental model — what the panel actually scores and how
-- The 4-section NSF SBIR Pitch storyline order, with notes on how it adapts to other agencies' formats
-- 5 worked before/after examples across SBIR-relevant domains
-- A 20-point pre-submission checklist
-- A 60-minute reviewer mini-training video
+The skill catches surface-level patterns. The full **NSF SBIR Pitch Playbook** — the first launch in the playbook series — goes deeper: the frameworks reviewers reward, the reviewer's mental model, and the structural moves that turn a draft into a fundable proposal. Currently in development.
 
 Launch-week pricing for waitlist subscribers: **https://elleyuanwang.com/sbir-pitch**
 
