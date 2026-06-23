@@ -55,31 +55,15 @@ No spam, unsubscribe one click.
 
 ## Installation
 
-### Claude Code via custom marketplace source
+### Recommended — Claude Code via `npx skills add`
 
-Install directly from this public GitHub repo. Run these as **two separate Claude Code messages** — do not paste both lines into the prompt at once.
-
-```
-/plugin marketplace add https://github.com/ellewangyuan/grantproof
-```
-
-After that finishes, run:
-
-```
-/plugin install grantproof@grantproof
-```
-
-Use the HTTPS URL. The shorter `ellewangyuan/grantproof` form may make Claude Code try SSH, which can fail if GitHub is not already in your known_hosts file.
-
-Then use it by typing `/grantproof:grantproof` in Claude Code. Claude Code namespaces plugin-installed skills as `/plugin-name:skill-name`.
-
-### Claude Code via npx (one command, agent-agnostic)
+One terminal command. Works regardless of which Claude Code surface (CLI, desktop app, or IDE extension) you use afterward.
 
 ```bash
 npx skills add ellewangyuan/grantproof --global
 ```
 
-Installs to `~/.claude/skills/grantproof/` and the skill is available in every Claude Code session. Drop the `--global` flag to install only to the current project (`./.claude/skills/grantproof/`).
+Installs to `~/.claude/skills/grantproof/`. The skill is then available in every Claude Code session on this machine. Drop the `--global` flag to install only to the current project (`./.claude/skills/grantproof/`).
 
 The `skills` CLI (Vercel Labs) is agent-agnostic — it also targets Codex, Cursor, OpenCode, Gemini CLI, Kimi Code, and 60+ other agents. Use `-a <agent>` to install for a specific one.
 
@@ -90,15 +74,37 @@ npx skills add ellewangyuan/grantproof --list   # see what's in the repo before 
 npx skills add ellewangyuan/grantproof -a codex # install for Codex instead of Claude Code
 ```
 
-### Claude Code manual install
+Once installed, paste your draft into any Claude Code chat — the skill auto-activates on R&D grant prose. Or invoke it explicitly with `/grantproof`.
 
-Clone directly into your skills directory:
+### Manual install — `git clone`
+
+If you'd rather not run a third-party CLI:
 
 ```bash
 git clone https://github.com/ellewangyuan/grantproof.git ~/.claude/skills/grantproof
 ```
 
-Then use it by typing `/grantproof` in Claude Code. Standalone skills (not installed via the plugin marketplace) are not namespaced.
+Same result as the `npx` path: skill lives at `~/.claude/skills/grantproof/`, available in every Claude Code session. Invoke with `/grantproof` or by pasting a draft.
+
+### Claude Code custom marketplace (native plugin flow)
+
+> **Requires an interactive `claude` terminal session.** The `/plugin` slash command is not currently available in the Claude Code desktop app or IDE extensions — only in a terminal session opened with `claude`. If you're not in a terminal session, use the `npx` or `git clone` path above instead.
+
+Inside an interactive terminal Claude Code session, run these as **two separate messages** — do not paste both lines into the prompt at once:
+
+```
+/plugin marketplace add https://github.com/ellewangyuan/grantproof
+```
+
+After the marketplace registers, run:
+
+```
+/plugin install grantproof@grantproof
+```
+
+Use the HTTPS URL. The shorter `ellewangyuan/grantproof` form may make Claude Code try SSH, which can fail if GitHub is not already in your known_hosts file.
+
+After this, the plugin is active in all Claude Code surfaces (desktop app, IDE extensions, future terminal sessions). Invoke it by typing `/grantproof:grantproof` or by pasting a draft. Claude Code namespaces plugin-installed skills as `/plugin-name:skill-name`.
 
 ### Other coding agents
 
