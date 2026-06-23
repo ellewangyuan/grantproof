@@ -34,15 +34,22 @@
     ]
   },
   "M4": {
-    "name": "Nobody has done this before",
-    "match": "literal-phrases-with-variants",
+    "name": "No-prior-work claim",
+    "match": "semantic-pattern",
     "triggers": [
       "nobody has done this before",
       "no one has done this",
       "first ever",
-      "no prior work"
+      "no prior work",
+      "we are the first to",
+      "unprecedented",
+      "never been attempted",
+      "never been tried",
+      "we are pioneering",
+      "no published research",
+      "no existing literature"
     ],
-    "notes": "Match close variants of the no-anchor / no-prior-work claim class."
+    "notes": "Detect the broader 'no prior work exists' / 'no anchor in the literature' framing — any claim that explicitly or implicitly asserts the absence of prior credible efforts. See patterns/M4-no-prior-work-claim.md for variant families and detection rules."
   },
   "M5": {
     "name": "Vague impact language",

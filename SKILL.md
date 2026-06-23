@@ -48,7 +48,7 @@ Catalog index:
 | M1 | Absolute terms | Literal trigger words |
 | M2 | Marketing superlatives | Literal trigger words |
 | M3 | Product-development framing | Literal trigger phrases |
-| M4 | "Nobody has done this before" | Phrases + close variants |
+| M4 | No-prior-work claim | Semantic pattern |
 | M5 | Vague impact language | Semantic pattern |
 | M6 | Over-claiming measurement | Semantic pattern |
 | M7 | Uncited factual claims | Semantic pattern |
