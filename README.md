@@ -37,22 +37,6 @@ The patterns apply across NSF SBIR/STTR, DoD SBIR, NIH SBIR, DOE, DARPA, NASA, N
 
 ---
 
-## How to use it
-
-### The easy path — get install instructions + a starter prompt by email
-
-**→ [Get the skill at elleyuanwang.com/sbir-pitch](https://elleyuanwang.com/sbir-pitch)**
-
-Drop your email and you'll get:
-- The install command for Claude Code
-- A sample passage to try the skill on first
-- Launch-week pricing for the full **NSF SBIR Pitch Playbook** when it ships (the first in the playbook series)
-- Occasional notes on what the author is seeing across recent reviewer panels
-
-No spam, unsubscribe one click.
-
----
-
 ## Installation
 
 ### Recommended — Claude Code via `npx skills add`
@@ -209,7 +193,12 @@ Created by **Dr. Elle Yuan Wang**:
 
 The skill catches surface-level patterns. The full **NSF SBIR Pitch Playbook** — the first launch in the playbook series — goes deeper: the frameworks reviewers reward, the reviewer's mental model, and the structural moves that turn a draft into a fundable proposal. Currently in development.
 
-Launch-week pricing for waitlist subscribers: **https://elleyuanwang.com/sbir-pitch**
+Drop your email at **[elleyuanwang.com/sbir-pitch](https://elleyuanwang.com/sbir-pitch)** to get:
+
+- Launch-week pricing when the Playbook ships
+- Occasional notes on what the author is seeing across recent reviewer panels
+
+No spam. One-click unsubscribe.
 
 ---
 
