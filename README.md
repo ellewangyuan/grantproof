@@ -15,7 +15,7 @@ The skill scans your prose for seven common writing-style mistakes government R&
 1. **Absolute terms** (*always, every, all, completely, guarantee, the best, the most, revolutionary*)
 2. **Marketing superlatives** (*unparalleled, breakthrough, game-changing*)
 3. **Product-development framing** (*spin out of, version 2 of, fork of, build out the X feature*)
-4. **"Nobody has done this before"** claims
+4. **No-prior-work claims** (*"nobody has done this before," "we are the first to," "unprecedented," "never been attempted"*)
 5. **Vague impact language** (*will help [vague noun]*, "if we do this, something good will happen")
 6. **Over-claiming measurement** (*"measures critical thinking" / "measures situational awareness"*)
 7. **Uncited factual claims** (dollar figures, percentages, trend statements without sources)
